@@ -72,7 +72,7 @@ datapay.send({
 });
 ```
 
-Above code builds an `OP_RETURN` transaction with `0x6d02 hello` as push data, and broadcasts it to Bitcoin SV network.
+Above code builds an `OP_RETURN` transaction with `0x6d02 hello` as push data, and broadcasts it to the Bitcoin SV network.
 
 ---
 
@@ -99,7 +99,7 @@ var config = {
 
 Above config describes a transaction that:
 
-- Posts `"hello from datapay"` to [memo.sv](https://memo.sv) network (See the protocol at [https://memo.sv/protocol](https://memo.sv/protocol)),
+- Posts `"hello from datapay"` to the [memo.sv](https://memo.sv) network (See the protocol at [https://memo.sv/protocol](https://memo.sv/protocol)),
 - paying the fee of `400` satoshis,
 - signed with a private key: `5JZ4RXH4MoXpaUQMcJHo8DxhZtkf5U5VnYd9zZH8BRKZuAbxZEw`,
 - through a public JSON-RPC endpoint at [https://api.bitindex.network](https://api.bitindex.network)
